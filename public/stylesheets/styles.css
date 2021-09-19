@@ -1,0 +1,23 @@
+.greybk{
+   background-color: rgb(192, 191, 191);
+   height: 400px;
+   width: 80%;
+   margin: 0 auto;
+}
+
+#left-profile{
+   margin: 10px 25px;
+}
+
+#right-profile{
+   /* background-color: red; */
+   width: 100%;
+   padding: 10px;
+   margin-left: 20px;
+}
+
+img.profile-pic {
+   width: 280px; 
+   height: auto; 
+   border-radius: 50%;
+}
