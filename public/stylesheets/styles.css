@@ -21,3 +21,38 @@ img.profile-pic {
    height: auto; 
    border-radius: 50%;
 }
+
+div.links {
+   margin-top: 20px;
+}
+
+.links a {
+   color: inherit;
+}
+
+/* INTRO */
+
+p {
+   line-height: 1.5;
+   letter-spacing: 1.5px;
+   font-size: 15px;
+}
+
+#intro {
+   background-color: rgb(194, 181, 181);
+
+}
+
+/* EDUCATION */
+
+/* #education{
+   width: 80%;
+   margin: 0 auto;
+} */
+
+.edu-box{
+   width: 350px;
+   /* padding: 10px 20px; */
+   border-radius: 5px;
+   background-color: cadetblue;
+}
