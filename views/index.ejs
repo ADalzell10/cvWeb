@@ -7,11 +7,11 @@
       <div class="d-flex flex-row">
          <div id="left-profile" class="d-flex flex-column">
             <img class="profile-pic" src="/grad-pic-head.JPG" alt="aaron dalzell">
-            <div class="d-flex flex-row justify-content-evenly" style=" margin-top: 20px;">
-               <a style="color: inherit;" href="https://www.linkedin.com/in/aaron-dalzell/" target="_blank">
+            <div class="d-flex flex-row justify-content-evenly links">
+               <a href="https://www.linkedin.com/in/aaron-dalzell/" target="_blank">
                   <h3 class="bi bi-linkedin"></h3>
                </a>
-               <a style="color: inherit;" href="https://github.com/ADalzell10" target="_blank">
+               <a href="https://github.com/ADalzell10" target="_blank">
                   <h3 class="bi bi-github"></h3>
                </a>
             </div>
@@ -24,12 +24,11 @@
 
             <div style="margin-bottom: 30px;">
                <!-- see msoccasion for button -->
-               <a href="\cv\AD_grad_cv.docx" target="_blank">
-
-                  <button class="btn btn-primary"> Download CV </button>
+               <a style="text-decoration: none;" href="\cv\AD_grad_cv.docx" target="_blank">
+                  <button class="btn btn-primary">Download CV</button>
                </a>
                <a href="/contact">
-                  <button class="btn btn-success"> Contact </button>
+                  <button class="btn btn-success">Contact</button>
                </a>
             </div>
             <div>
@@ -63,15 +62,17 @@
       <!-- about info -->
    </div>
 
-   <!-- Contact info -->
    <!-- Profile/introduction -->
-   <!-- this could also be split up into partials to help make the page look alot cleaner and easier to edit -->
 
+   <%- partial("partials/intro")%>
 
    <!-- education -->
 
+   <%- partial("partials/education")%>
 
    <!-- Skills, use of design here -->
+
+   <%- partial("partials/skills")%>
 
 
    <!-- info on level 4,5,6 from uni -->
