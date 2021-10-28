@@ -1,8 +1,28 @@
-.greybk{
-   background-color: rgb(192, 191, 191);
+body{
+   background-color: #e9ecef;
+}
+
+.navCol{
+   background-color: #ced4da;
+}
+
+.back-image{
+   width: 100%;
+   height: 540px;
+   object-fit: cover;
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   left: 0;
+   /* background-image: url(link-bkgd.jpg); */
+}
+
+.profile-bk{
+   background-color: white;
    height: 400px;
-   width: 80%;
+   width: 85%;
    margin: 0 auto;
+   border: 2px solid #dee2e6;
 }
 
 #left-profile{
@@ -38,9 +58,14 @@ p {
    font-size: 15px;
 }
 
-#intro {
+#intro{
+
    background-color: rgb(194, 181, 181);
-   height: 350px;
+}
+
+.intro-box {
+   height: 340px;
+   padding: 18px;
 
 }
 
